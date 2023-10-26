@@ -1,0 +1,33 @@
+.header{
+    background-color: #0A0A0A;
+    color: $header-color;
+    height: 113px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 71px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $header-color;
+        font-size: 24px;
+        font-weight: 400;
+        &__logo{
+            fill: #717171;
+        }
+        &__logo:hover{
+            fill: #fff;
+        }
+        &__contacts__link:hover{
+            color: #fff;
+        }
+    }
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    &__link:hover{
+        color: #fff;
+    }
+}
